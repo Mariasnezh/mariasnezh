@@ -4,7 +4,8 @@ c = a + 'ing'
 d = a.replace('ing', 'ly')
 if len(a) < 3:
     print(a)
-elif b == False:
+elif not b:
     print(c)
-elif b == True:
-    print(d)
+elif b:
+    print(d)    
+    
