@@ -1,11 +1,8 @@
 a = str(input())
 b = a.endswith('ing')
-c = a + 'ing'
-d = a.replace('ing', 'ly')
 if len(a) < 3:
     print(a)
 elif not b:
-    print(c)
+    print(a + 'ing')
 elif b:
-    print(d)    
-    
+    print(a.replace('ing', 'ly'))
