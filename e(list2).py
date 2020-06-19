@@ -19,3 +19,5 @@ print(list2)
 list3 = list1 + list2
 list3.sort()
 print(list3)
+
+#наверное, я не поняла задание
