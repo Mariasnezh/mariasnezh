@@ -21,3 +21,7 @@ list3.sort()
 print(list3)
 
 #наверное, я не поняла задание
+# E. Given two lists sorted in increasing order, create and return a merged
+# list of all the elements in sorted order. You may modify the passed in lists.
+# Ideally, the solution should work in "linear" time, making a single
+# pass of both lists.
